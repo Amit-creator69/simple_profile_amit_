@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - Amit Kumar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            background: white;
+            padding: 80px 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #007BFF;
+        }
+        .skills {
+            margin-top: 30px;
+        }
+        .skills span {
+            background: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin: 10px;
+            display: inline-block;
+            font-size: 22px;
+            font-weight: bold;
+            transition: background 0.3s ease-in-out;
+        }
+        .skills span:hover {
+            background: #0056b3;
+        }
+        .about, .my-work {
+            margin-top: 40px;
+            max-width: 1200px;
+            text-align: center;
+            padding: 0 40px;
+            font-size: 22px;
+            line-height: 1.6;
+        }
+        .work-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 22px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            transition: background 0.3s ease-in-out;
+        }
+        .work-button:hover {
+            background: #0056b3;
+        }
+        h2 {
+            font-size: 42px;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="./img/png.png" alt="Amit Kumar - Web Developer & Designer" class="profile-pic">
+        <h2>Amit Kumar</h2>
+        <p>Web Developer & Designer</p>
+        
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+        </div>
+
+        <div class="about">
+            <h3>About Me</h3>
+            <p>I am a passionate web developer with expertise in front-end and back-end technologies. I love building interactive and visually appealing web applications that provide seamless user experiences.</p>
+        </div>
+
+        <div class="my-work">
+            <h3>My Work</h3>
+            <p>Check out some of my best projects.</p>
+            <a href="./gallery.html" class="work-button" target="_blank">View My Work</a>
+        </div>
+    </div>
+</body>
+</html>
